@@ -26,7 +26,7 @@ function renderProjects() {
    </div>
    <img class="img-fluid" src=${project.img} alt="">
    </a>
-   <div class="portfolio-caption">
+   <div class="portfolio-caption portfolioCard">
     <h4>${project.title}</h4>
     <p class="text-muted">${project.desc}</p>
     </div>

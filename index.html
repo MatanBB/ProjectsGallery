@@ -33,11 +33,11 @@
   <aside class="offcanvas-aside d-flex justify-content-end text-left">
     <form class="contactForm">
       <p class="text-right"></p>Your Email:</p>
-      <input oninput="onSendInput({Email:this.value})">
+      <input oninput="onSendInput({Email:this.value})" placeholder="Type your email here..">
       <p class="text-right"></p>Subject</p>
-      <input oninput="onSendInput({Subject:this.value})">
+      <input oninput="onSendInput({Subject:this.value})" placeholder="Choose a subject..">
       <p class="text-right"></p>Body</p>
-      <textarea name="Text1" cols="40" rows="5" oninput="onSendInput({Body:this.value})"></textarea>
+      <textarea name="Text1" cols="40" rows="5" oninput="onSendInput({Body:this.value})" placeholder="Type message here..."></textarea>
       <div class="mt-4">
         <button onclick="OnSendAllInputs()" type="button" class="btn btn-info">Submit</button>
       </div>
@@ -93,7 +93,7 @@
 
   <!-- Services -->
   <a name="services"></a>
-  <section>
+  <section class="portfolioGrid">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -137,7 +137,7 @@
   </section>
 
   <!-- Portfolio Grid -->
-  <section class="bg-light" id="portfolio">
+  <section class="portfolioGrid" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -154,7 +154,7 @@
   <!-- Me -->
   <section class="bg-light" id="me" style="padding: 0px;">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 bg-dark pt-3 pb-3 boxshadow">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="img/me.png" alt="">
           <h4>Matan Bibi</h4>
@@ -178,14 +178,14 @@
           </ul>
         </div>
       </div>
-      <div class="col-sm-8 flex-align-center">
+      <div class="col-sm-8 flex-align-center bg-dark boxshadowc">
         <p class="large text-muted  about-description">Have a strong passion for learning new skills, Resourceful and creative when it comes to solutions and always has an ear to learn from anyone or anything as the chances fly by!</p>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer id="contact">
+  <footer id="contact" class="portfolioGrid">
     <div class="container">
       <div class="row">
         <div class="col-md-4 flex-align-center">

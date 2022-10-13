@@ -1,6 +1,14 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgb(185, 193, 204);
+}
+.boxshadow{
+    box-shadow: 0px 0px 3px black;
+}
+.portfolioGrid{
+    background: rgb(205,147,147);
+background: linear-gradient(90deg, rgba(205,147,147,1) 0%, rgba(161,61,71,1) 0%, rgba(170,170,170,1) 0%, rgba(37,37,37,1) 100%, rgba(0,0,0,1) 100%);
 }
 p {
     line-height: 1.75;
@@ -194,7 +202,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
